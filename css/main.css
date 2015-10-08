@@ -112,13 +112,21 @@ section {
 }
 
 .contact {
-    height: 100vh;
+    height: 50vh;
     background-color: #FDFBE1;
     position: relative;
 }
 
+.locate {
+    height: 100vh;
+    width: auto;
+    box-shadow: 0px 0px 8px #888888;
+}
+
 .bus-card {
-    
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .con-title {
