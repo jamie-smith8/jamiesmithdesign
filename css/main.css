@@ -27,7 +27,7 @@ section {
 }
 
 .banner {
-    height: 40vh;
+    height: 60vh;
     background-color: black;
     oveflow: hidden;
     position: relative;
@@ -88,13 +88,14 @@ section {
 }
 
 .about {
-    height: 50vh;
+    height: 30vh;
     background-color: #5EA890;
     position: relative;
 }
 
 .about p {
-    padding: 5%;
+    margin: 0;
+    padding: 0 0 5% 5%;
     max-width: 40em;
     color: #FDFBE1;
 }
