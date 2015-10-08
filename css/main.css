@@ -83,6 +83,7 @@ section {
 .about p {
     margin: 0;
     padding:5%;
+    padding-top: 25px;
     padding-bottom: 0;
     max-width: 40em;
     color: #FDFBE1;
