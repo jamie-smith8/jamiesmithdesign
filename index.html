@@ -13,20 +13,26 @@
     
     <body> 
         
+        <ul class="skip-links">
+            <li><a href="#skills">Skip to skills</a></li>
+            <li><a href="#work">Skip to work</a></li>
+            <li><a href="#contact">Skip to contact</a></li>
+        </ul>
+        
          <nav class="fix-nav">
         
             <img class="nav-logo" src="images/circle-01.svg"> 
              
             <ul class="nav-list">
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li><a href="#top">About</a></li>
+                <li><a href="#skills"><a href='#'>Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
          
         </nav>
         
-        <section class="banner">
+        <section role="top" class="banner">
             
             <img class="banner-img" src="images/place-holder.png">
             
@@ -40,23 +46,21 @@
         
             <p>Hi. My name is Jamie Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet diam. Sed porttitor odio ac maximus dapibus. Aenean pulvinar eleifend tellus quis commodo. Donec id metus et nibh posuere hendrerit aliquam in massa. Sed quis laoreet diam.</p>
             
-            <h2 class="subtitles me">about me</h2>
+            <h2 class="subtitles me">jamie smith</h2>
             
             
         
         </section>
         
-        <section class="skills">
+        <section class="skills" role="skills" id="skills">
         
         
         
-            
-            
             <h2 class="subtitles set">skill set</h2>
             
         </section>
         
-        <section class="work">
+        <section class="work" role="work" id="work">
         
         
             
@@ -66,12 +70,12 @@
         
         </section>
         
-        <section class="contact">
+        <section class="contact" role="contact" id="contact">
         
         
             
             
-            
+            <h2 class="subtitles con-title">Let's talk</h2>
             
         
         </section>
