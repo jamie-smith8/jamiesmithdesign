@@ -99,7 +99,14 @@ section {
 
 .set {
     color: #ED594F;
-    
+}
+
+.graph {
+    width: 70vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
 }
 
 .work {
