@@ -102,18 +102,27 @@ section {
 }
 
 .graph {
-    width: 70vw;
+    width: 50vw;
     height: auto;
     display: block;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 5%;
+}
+
+.projects {
+    background-color: #ED594F;
+}
+
+img {
+    width: 100%;
 }
 
 .work {
-    height: 100vh;
     background-color: #ED594F;
     position: relative;
+    height: 25vh;
 }
+
 
 .work-title {
     color: #FDFBE1;
@@ -159,7 +168,7 @@ section {
 }
 
 .foot {
-    height: 50vh;
+    height: 10vh;
     background-color: #5EA890;
 }
 
@@ -189,8 +198,7 @@ section {
 @media only screen and (min-width: 60em) {
 
     
-    
-    
+   
     
     
     
@@ -203,7 +211,10 @@ section {
 
     
     
-    
+     .bus-card {
+        text-align: left;
+         margin-left: 5%;
+    }
     
     
     
