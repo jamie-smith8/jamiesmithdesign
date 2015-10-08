@@ -101,12 +101,16 @@ section {
     color: #ED594F;
 }
 
-.graph {
-    width: 50vw;
-    height: auto;
+.long-graph {
+    display: none;
+}
+
+.tall-graph {
     display: block;
+    height: 70%;
     margin: auto;
-    margin-top: 5%;
+    width: auto;
+    margin-top: 2%;
 }
 
 .projects {
@@ -178,8 +182,7 @@ img {
 
 @media only screen and (min-width: 38em) {
 
-    
-    
+   
     
     
     
@@ -191,7 +194,18 @@ img {
 @media only screen and (min-width: 60em) {
 
     
-   
+    .long-graph {
+        width: 50vw;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+    }
+    
+    .tall-graph {
+        display: none;
+    }
+    
     
     
     
