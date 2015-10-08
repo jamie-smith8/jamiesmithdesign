@@ -117,15 +117,8 @@ img {
     width: 100%;
 }
 
-.work {
-    background-color: #ED594F;
-    position: relative;
-    height: 25vh;
-}
-
-
-.work-title {
-    color: #FDFBE1;
+.projects {
+    padding: 5%;
 }
 
 .contact {
