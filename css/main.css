@@ -117,6 +117,10 @@ section {
     position: relative;
 }
 
+.bus-card {
+    
+}
+
 .con-title {
     color: #5EA890;
 }
@@ -135,6 +139,7 @@ section {
 .me {
     color: #FDFBE1;
     font-size: 15vw;
+    bottom: -.5em;
 }
 
 .foot {
