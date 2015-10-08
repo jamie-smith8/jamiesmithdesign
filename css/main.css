@@ -125,6 +125,16 @@ img {
     padding: 5%;
 }
 
+.work {
+    height: 25vh;
+    background-color: #ED594F; 
+    position: relative;
+}
+
+.work-title {
+    color: #FDFBE1;
+}
+
 .contact {
     height: 50vh;
     background-color: #FDFBE1;
