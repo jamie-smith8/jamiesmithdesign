@@ -123,6 +123,7 @@ img {
 
 .projects {
     padding: 5%;
+    padding-top: 2%;
 }
 
 .work {
@@ -136,7 +137,7 @@ img {
 }
 
 .contact {
-    height: 50vh;
+    height: 60vh;
     background-color: #FDFBE1;
     position: relative;
 }
@@ -175,9 +176,22 @@ img {
 }
 
 .foot {
-    height: 10vh;
+    height: 40vh;
     background-color: #5EA890;
+    position: relative;
 }
+
+.foot p {
+    color: #FDFBE1;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 
 
 @media only screen and (min-width: 25em) {
