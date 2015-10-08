@@ -128,6 +128,10 @@ section {
     position: relative;
 }
 
+.con-title {
+    color: #5EA890;
+}
+
 .subtitles {
     position: absolute;
     bottom: -.6em;
@@ -146,7 +150,7 @@ section {
 
 .foot {
     height: 50vh;
-    background-color: #ED594F;
+    background-color: #5EA890;
 }
 
 
