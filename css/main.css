@@ -115,25 +115,14 @@ section {
 
 .projects {
     background-color: #ED594F;
+    position: relative;
+    padding: 5%;
+    padding-top: 30%;
+    overflow: hidden;
 }
 
 img {
     width: 100%;
-}
-
-.projects {
-    padding: 5%;
-    padding-top: 2%;
-}
-
-.work {
-    height: 25vh;
-    background-color: #ED594F; 
-    position: relative;
-}
-
-.work-title {
-    color: #FDFBE1;
 }
 
 .contact {
@@ -167,6 +156,16 @@ img {
     font-family: 'Ubuntu Condensed', sans-serif;
     text-transform: uppercase;
     font-size: 20vw;
+}
+
+.work-title {
+    color: #FDFBE1;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 20vw;
+    position: absolute;
+    top: -.6em;
+    left: -.1em;
 }
 
 .me {
