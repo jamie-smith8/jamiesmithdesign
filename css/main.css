@@ -28,6 +28,9 @@ section {
 
 .banner {
     height: 55vh;
+    background-image: url(../images/jamie_bw.jpg);
+    background-size: contain;
+    background-repeat: repeat-x(6);
     background-color: black;
     oveflow: hidden;
     position: relative;
