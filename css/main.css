@@ -119,9 +119,15 @@ section {
 .projects {
     background-color: #ED594F;
     position: relative;
-    padding: 5%;
-    padding-top: 30%;
     overflow: hidden;
+    padding: 10px;
+    padding-top: 30%;
+    margin: 0;
+}
+
+.art {
+    padding-right: 0;
+    margin: 0;
 }
 
 img {
