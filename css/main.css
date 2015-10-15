@@ -192,6 +192,41 @@ img {
 }
 
 
+@media only screen and (min-height: 2em) {
+   
+    .tall-graph {
+        display: none;
+    }
+    
+    .long-graph {
+        display: block;
+        width: 70%;
+        margin: auto;
+        padding-top: 5.5%;
+    }
+    
+    
+    .me {
+        font-size: 15vh;
+    }
+    
+    .about p {
+        padding-top: 3%;
+    }
+    
+    .nav-logo {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-height: 10em) {
+    
+    .me {
+    }
+}
+
+
 
 @media only screen and (min-width: 25em) {
    
