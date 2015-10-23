@@ -1,0 +1,357 @@
+body {
+    margin: auto;
+    padding-left: 20%;
+}
+
+p {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+section {
+    overflow: hidden;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.skip-links a {
+    position: absolute;
+    top: -3em;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+.banner {
+    height: 55vh;
+    background-image: url(../images/jamie_bw.jpg);
+    background-size: 40%;
+    background-repeat:no-repeat;
+    background-color: black;
+    oveflow: hidden;
+    position: relative;
+    overflow: visible;
+}
+
+.name {
+    color: #5EA890;
+}
+
+.fix-nav {
+    background-color: #FDFBE1;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    box-shadow: 2px 0px 8px #888888;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    z-index: 2;
+}
+
+.fix-nav a {
+    line-height: 500%;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.fix-nav a:hover {
+    color: #5EA890;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-logo {
+    display: block;
+    margin: auto;
+    max-width: 2in;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.about {
+    height: 45vh;
+    background-color: #5EA890;
+    position: relative;
+}
+
+.about p {
+    margin: 0;
+    padding:5%;
+    padding-top: 25px;
+    padding-bottom: 0;
+    max-width: 40em;
+    color: #FDFBE1;
+}
+
+
+
+.skills {
+    height: 100vh;
+    background-color: #FDFBE1;
+    position: relative;
+}
+
+.set {
+    color: #ED594F;
+}
+
+.long-graph {
+    display: none;
+}
+
+.tall-graph {
+    display: block;
+    height: 80%;
+    margin: auto;
+    width: auto;
+    margin-top: 2%;
+}
+
+.projects {
+    background-color: #ED594F;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 30%;
+    margin: 0;
+}
+
+.art {
+    padding-right: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.contact {
+    height: 60vh;
+    background-color: #FDFBE1;
+    position: relative;
+}
+
+.locate {
+    height: 100vh;
+    width: auto;
+    box-shadow: 0px 0px 8px #888888;
+}
+
+.bus-card {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.con-title {
+    color: #5EA890;
+}
+
+.subtitles {
+    position: absolute;
+    bottom: -.6em;
+    right: -.08em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 20vw;
+}
+
+.work-title {
+    color: #FDFBE1;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 20vw;
+    position: absolute;
+    top: -.6em;
+    left: -.1em;
+}
+
+.me {
+    color: #FDFBE1;
+    font-size: 15vw;
+    bottom: -.5em;
+}
+
+.foot {
+    height: 40vh;
+    background-color: #5EA890;
+    position: relative;
+}
+
+.foot p {
+    color: #FDFBE1;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+@media only screen and (min-height: 0px) {
+   
+    .tall-graph {
+        display: none;
+    }
+    
+    .long-graph {
+        display: block;
+        width: 70%;
+        margin: auto;
+        padding-top: 5.5%;
+    }
+    
+    
+    .me {
+        font-size: 15vh;
+    }
+    
+    .about p {
+        padding-top: 3%;
+    }
+    
+    .nav-logo {
+        display: none;
+    }
+    
+    .con-title {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-height: 380px) {
+    
+    .tall-graph {
+        display: block;
+        margin: auto;
+        padding-top: 2%;
+    }
+    
+    .long-graph {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-height: 425px) {
+    
+    .nav-logo {
+        display: block;
+        margin: auto;
+        max-width: 2in;
+        padding-top: 20%;
+        padding-bottom: 20%;
+}
+    
+    .con-title {
+        display: block;
+        position: absolute;
+        bottom: -.6em;
+        right: -.08em;
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        text-transform: uppercase;
+        font-size: 20vw;
+}
+    
+}
+   
+    
+@media only screen and (min-height: 482px) {
+    
+    
+    
+}
+    
+    
+@media only screen and (min-height: 515px) {
+    .me {
+        font-size: 14vw;
+    }
+}
+
+
+
+@media only screen and (min-width: 25em) {
+   
+    
+    
+    
+    
+    
+    
+}
+
+@media only screen and (min-width: 38em) {
+
+   
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 60em) {
+
+    
+    .long-graph {
+        width: 50vw;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+    }
+    
+    .tall-graph {
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 90em) {
+
+    
+    
+     .bus-card {
+        text-align: left;
+         margin-left: 5%;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
