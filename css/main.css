@@ -131,6 +131,9 @@ img {
     padding-top: 1.3rem;
     font-weight: 100;
     font-size: 13px;
+    max-width: 85vw;
+    display: block;
+    margin: auto;
 }
 
 .skill-boxes p {
