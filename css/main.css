@@ -1,15 +1,20 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-    margin: auto;
-    padding-left: 20%;
-}
-
-p {
-    font-family: sans-serif;
-    letter-spacing: 2px;
-}
-
-section {
-    overflow: hidden;
+    margin: auto;   
+    font-family: 'Helvetica' sans-serif;
 }
 
 .skip-links {
@@ -23,333 +28,190 @@ section {
 }
 
 .skip-links a:focus {
-    top: 0;
-}
-
-.banner {
-    height: 55vh;
-    background-image: url(../images/jamie_bw.jpg);
-    background-size: 40%;
-    background-repeat:no-repeat;
-    background-color: black;
-    oveflow: hidden;
-    position: relative;
-    overflow: visible;
-}
-
-.name {
-    color: #5EA890;
-}
-
-.fix-nav {
-    background-color: #FDFBE1;
-    width: 20%;
-    position: fixed;
-    left: 0;
-    height: 100%;
-    box-shadow: 2px 0px 8px #888888;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    z-index: 2;
-}
-
-.fix-nav a {
-    line-height: 500%;
-    text-transform: uppercase;
+    top: 10px;
+    left: 15%;
     color: black;
     text-decoration: none;
 }
 
-.fix-nav a:hover {
-    color: #5EA890;
-}
-
-.nav-list {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-}
-
-.nav-logo {
-    display: block;
-    margin: auto;
-    max-width: 2in;
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
-
-.about {
-    height: 45vh;
-    background-color: #5EA890;
-    position: relative;
-}
-
-.about p {
-    margin: 0;
-    padding:5%;
-    padding-top: 25px;
-    padding-bottom: 0;
-    max-width: 40em;
-    color: #FDFBE1;
-}
-
-
-
-.skills {
-    height: 100vh;
-    background-color: #FDFBE1;
-    position: relative;
-}
-
-.set {
-    color: #ED594F;
-}
-
-.long-graph {
-    display: none;
-}
-
-.tall-graph {
-    display: block;
-    height: 80%;
-    margin: auto;
+.top-bar {
+    height: 2.5rem;
     width: auto;
-    margin-top: 2%;
-}
-
-.projects {
-    background-color: #ED594F;
     position: relative;
-    overflow: hidden;
-    padding: 10px;
-    padding-top: 30%;
-    margin: 0;
-}
-
-.art {
-    padding-right: 0;
-    margin: 0;
 }
 
 img {
     width: 100%;
 }
 
-.contact {
-    height: 60vh;
-    background-color: #FDFBE1;
-    position: relative;
-}
-
-.locate {
-    height: 100vh;
-    width: auto;
-    box-shadow: 0px 0px 8px #888888;
-}
-
-.bus-card {
-    text-align: center;
-    margin-top: 10%;
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-.con-title {
-    color: #5EA890;
-}
-
-.subtitles {
+.hamb {
+    width: 2rem;
     position: absolute;
-    bottom: -.6em;
-    right: -.08em;
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    text-transform: uppercase;
-    font-size: 20vw;
+    top: 15px;
+    left: 25px;
 }
 
-.work-title {
-    color: #FDFBE1;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    text-transform: uppercase;
-    font-size: 20vw;
+.hamb:hover {
+    opacity: .5;
+}
+
+.nav-x {
+    height: 1rem;
+    width: 1rem;
     position: absolute;
-    top: -.6em;
-    left: -.1em;
+    top: -50px;
+    left: 0;
 }
 
-.me {
-    color: #FDFBE1;
-    font-size: 15vw;
-    bottom: -.5em;
-}
-
-.foot {
-    height: 40vh;
-    background-color: #5EA890;
-    position: relative;
-}
-
-.foot p {
-    color: #FDFBE1;
+.lightbox {
+    position: absolute;
+    width: 50vw;
+    top: 4rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
     font-size: 12px;
+    left: 25px;
+    display: none;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+.lightbox li{
+    list-style: none; 
+    padding-left: 0;
+    color: darkslategray;
+}
+
+.lightbox ul {
+    padding: 0;
+}
+
+.lightbox a {
+    text-decoration: none;
+}
+
+.name {
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
+    right: 20px;
+    top: 10px;
+    font-family: 'Helvetica' sans-serif;
+    letter-spacing: 8px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 20px;
+    max-width: 100rem;
+    display: block;
+    margin: auto;
+}
+
+.sub-title {
+    font-family: 'Helvetica' sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 8px;
+}
+
+.short {
+    width: 4rem;
+    display: block;
+    margin: auto;
+    height: 3px;
+    background-color: black;
+}
+
+.intro-p {
+    padding-top: 1.3rem;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.skill-boxes p {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+    line-height: 6rem;
+    background-color: teal;
+    margin: 5px;
+}
+
+.skills {
+    max-width: 85vw;
+    display: block;
+    margin: auto;
+}
+
+.long {
+    width: 85vw;
+    display: block;
+    margin: auto;
+    height: 3px;
+    background-color: black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 
-@media only screen and (min-height: 0px) {
-   
-    .tall-graph {
-        display: none;
-    }
-    
-    .long-graph {
-        display: block;
-        width: 70%;
-        margin: auto;
-        padding-top: 5.5%;
-    }
-    
-    
-    .me {
-        font-size: 15vh;
-    }
-    
-    .about p {
-        padding-top: 3%;
-    }
-    
-    .nav-logo {
-        display: none;
-    }
-    
-    .con-title {
-        display: none;
-    }
+.work {
+    max-width: 85vw;
+    display: block;
+    margin: auto;
+}
+
+.work-boxes {
+    opacity: .8;
+    padding: 5px;
     
 }
 
-@media only screen and (min-height: 380px) {
-    
-    .tall-graph {
-        display: block;
-        margin: auto;
-        padding-top: 2%;
-    }
-    
-    .long-graph {
-        display: none;
-    }
-    
+.pics {
+    display: block;
 }
 
-@media only screen and (min-height: 425px) {
-    
-    .nav-logo {
-        display: block;
-        margin: auto;
-        max-width: 2in;
-        padding-top: 20%;
-        padding-bottom: 20%;
-}
-    
-    .con-title {
-        display: block;
-        position: absolute;
-        bottom: -.6em;
-        right: -.08em;
-        margin: 0;
-        padding: 0;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-transform: uppercase;
-        font-size: 20vw;
-}
-    
-}
-   
-    
-@media only screen and (min-height: 482px) {
-    
-    
-    
-}
-    
-    
-@media only screen and (min-height: 515px) {
-    .me {
-        font-size: 14vw;
-    }
+.work-boxes:hover {
+    opacity: 1;
 }
 
-
-
-@media only screen and (min-width: 25em) {
-   
-    
-    
-    
-    
-    
-    
+.intro-p {
+    letter-spacing: 1.5px;
 }
 
-@media only screen and (min-width: 38em) {
-
-   
-    
-    
-    
-    
-    
+.icons {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    width: 3.5rem;
+    display: inline-block;
 }
 
-
-@media only screen and (min-width: 60em) {
-
-    
-    .long-graph {
-        width: 50vw;
-        height: auto;
-        display: block;
-        margin: auto;
-        margin-top: 5%;
-    }
-    
-    .tall-graph {
-        display: none;
-    }
-    
-    
-    
-    
-    
-    
+.social ul{
+    padding-left: calc((100% - 18.7rem) / 2);
 }
 
-
-@media only screen and (min-width: 90em) {
-
-    
-    
-     .bus-card {
-        text-align: left;
-         margin-left: 5%;
-    }
-    
-    
-    
-    
-    
-    
+.social a:hover {
+    opacity: .9;
 }
 
+.arrow {
+    width: 2.5rem;
+    padding-left: 25px;
+    padding-top: 19px;
+}
 
-
-
+.back-arrow {
+    top: 20px;
+    width: 2.2rem;
+    padding-left: 25px;
+    padding-top: 10px;
+}
 
 
 
