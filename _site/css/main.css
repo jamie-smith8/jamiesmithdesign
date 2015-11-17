@@ -1,0 +1,321 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;   
+    font-family: 'Helvetica' sans-serif;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.skip-links a {
+    position: absolute;
+    top: -3em;
+}
+
+.skip-links a:focus {
+    top: 10px;
+    left: 15%;
+    color: black;
+    text-decoration: none;
+}
+
+.top-bar {
+    height: 2.5rem;
+    width: auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.hamb {
+    width: 2rem;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+
+.hamb:hover {
+    opacity: .5;
+}
+
+.hamb:target {
+    display: none;
+}
+
+.nav-x {
+    height: 1rem;
+    width: 5rem;
+    position: absolute;
+    top: -50px;
+    left: -2rem;
+    background-color: white;
+}
+
+.lightbox {
+    position: absolute;
+    width: 50vw;
+    top: 4rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    left: 25px;
+    display: none;
+    background-color: white;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+.lightbox li{
+    list-style: none; 
+    padding-left: 0;
+    color: darkslategray;
+}
+
+.lightbox ul {
+    padding: 0;
+}
+
+.lightbox a {
+    text-decoration: none;
+}
+
+.name {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-family: 'Helvetica' sans-serif;
+    letter-spacing: 8px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 20px;
+    max-width: 85vw;
+    display: block;
+    margin: auto;
+}
+
+.sub-title {
+    font-family: 'Helvetica' sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 100%;
+    letter-spacing: 8px;
+}
+
+.about-subtitle {
+    padding-top: 2rem;
+}
+
+.short {
+    width: 4rem;
+    display: block;
+    margin: auto;
+    height: 3px;
+    background-color: black;
+}
+
+.intro-p {
+    padding-top: 1.3rem;
+    font-weight: 100;
+    font-size: 90%;
+    max-width: 85vw;
+    display: block;
+    margin: auto;
+}
+
+.bottom-p {
+    padding-bottom: 10rem;
+}
+
+.skill-boxes p {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+    line-height: 6rem;
+    background-color: teal;
+    margin: 5px;
+}
+
+.skill-boxes p:hover {
+    background-color: white;
+    color: teal;
+    font-weight: 500;
+}
+
+.skills {
+    max-width: 85vw;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.long {
+    width: 85vw;
+    display: block;
+    margin: auto;
+    height: 3px;
+    background-color: black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.work {
+    max-width: 85vw;
+    display: block;
+    margin: auto;
+}
+
+.work-boxes {
+    opacity: 1;
+    padding: 5px;
+}
+
+.pics {
+    display: block;
+}
+
+.intro-p {
+    letter-spacing: 1.5px;
+    max-width: 60rem;
+}
+
+.icons {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    width: 3.5rem;
+    display: inline-block;
+}
+
+.social ul{
+    padding-left: calc((100% - 18.7rem) / 2);
+    padding-top: 2rem;
+}
+
+.social a:hover {
+    opacity: .9;
+}
+
+.arrow {
+    width: 2.5rem;
+    padding-left: 25px;
+    padding-top: 19px;
+}
+
+.back-arrow {
+    top: 20px;
+    width: 2.2rem;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.description {
+    padding-bottom: 4rem;
+}
+
+
+.letters {
+    margin: 0;
+    padding: 0;
+}
+
+.a-type {
+    padding: 5px;
+    
+}
+
+.eco-shot {
+    padding: 10px;
+}
+
+.eco-grid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 25em) {
+ 
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 38em) {
+ 
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 60em) {
+ 
+    .sub-title {
+        font-size: 140%;
+    }
+    
+    .intro-p {
+        font-size: 120%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 90em) {
+ 
+   .sub-title {
+      font-size: 200%; 
+       letter-spacing: 1.5rem;
+       padding-top: 2rem;
+   }
+    
+    .short {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        height: 6px;
+    }
+    .intro-p {
+        font-size: 150%;
+    }
+    
+    .chat {
+        letter-spacing: 1rem;
+    }
+    
+    
+}
+
+
+
