@@ -55,12 +55,17 @@ img {
     opacity: .5;
 }
 
+.hamb:target {
+    display: none;
+}
+
 .nav-x {
     height: 1rem;
-    width: 1rem;
+    width: 5rem;
     position: absolute;
     top: -50px;
-    left: 0;
+    left: -2rem;
+    background-color: white;
 }
 
 .lightbox {
@@ -72,6 +77,7 @@ img {
     font-size: 12px;
     left: 25px;
     display: none;
+    background-color: white;
 }
 
 .lightbox:target {
