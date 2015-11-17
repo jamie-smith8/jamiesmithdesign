@@ -185,17 +185,12 @@ img {
 }
 
 .work-boxes {
-    opacity: .8;
+    opacity: 1;
     padding: 5px;
-    
 }
 
 .pics {
     display: block;
-}
-
-.work-boxes:hover {
-    opacity: 1;
 }
 
 .intro-p {
@@ -236,6 +231,25 @@ img {
     padding-bottom: 4rem;
 }
 
+
+.letters {
+    margin: 0;
+    padding: 0;
+}
+
+.a-type {
+    padding: 5px;
+    
+}
+
+.eco-shot {
+    padding: 10px;
+}
+
+.eco-grid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 
