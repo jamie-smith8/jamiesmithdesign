@@ -60,10 +60,10 @@ img {
 }
 
 .nav-x {
-    height: 1rem;
+    height: 1.1rem;
     width: 5rem;
     position: absolute;
-    top: -50px;
+    top: -49px;
     left: -2rem;
     background-color: white;
 }
@@ -320,14 +320,29 @@ img {
         font-size: 120%;
     }
     
+    .about-intro {
+        font-size: 14px;
+        padding: 5%;
+        text-align: left;
+    }
+    
+    .about-subtitle {
+        text-align: center;
+    }
+    
+    .about-pic {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    
 }
 
 
 @media only screen and (min-width: 90em) {
  
-   .sub-title {
-      font-size: 200%; 
-       letter-spacing: 1.5rem;
+   .sub-title { 
+       font-size: 180%;
+       letter-spacing: 1rem;
        padding-top: 2rem;
    }
     
