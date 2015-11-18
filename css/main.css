@@ -63,7 +63,7 @@ img {
     height: 1.1rem;
     width: 5rem;
     position: absolute;
-    top: -49px;
+    top: -38%;
     left: -2rem;
     background-color: white;
 }
@@ -244,13 +244,13 @@ img {
 
 .project-titles:hover {
     opacity: 0;
-    -webkit-transition: opacity 3s ease;
-    -moz-transition: opacity 3s ease;
-    transition: opacity 3s ease;
+    -webkit-transition: opacity 2.5s ease;
+    -moz-transition: opacity 2.5s ease;
+    transition: opacity 2.5s ease;
 }
 
 .title {
-    display: none;
+    opacity: .3;
 }
 
 .title:hover {
