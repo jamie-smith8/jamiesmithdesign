@@ -250,8 +250,16 @@ img {
 }
 
 .title {
-    opacity: .3;
-}
+       display: block;
+        color: white;
+        position: absolute;
+        font-size: 90%;
+        bottom: -15px;
+        width: 100%;
+        text-align: center;
+        letter-spacing: 3px;
+        opacity: .2;
+} 
 
 .title:hover {
     opacity: 1;
@@ -405,17 +413,7 @@ img {
 
 @media only screen and (min-width: 38em) {
  
-   .title {
-       display: block;
-        color: white;
-        position: absolute;
-        font-size: 90%;
-        bottom: -15px;
-        width: 100%;
-        text-align: center;
-        letter-spacing: 3px;
-        opacity: .2;
-} 
+   
     
     
 }
