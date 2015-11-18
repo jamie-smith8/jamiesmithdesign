@@ -320,19 +320,40 @@ img {
         font-size: 120%;
     }
     
-    .about-intro {
+    .half-intro {
         font-size: 14px;
         padding: 5%;
         text-align: left;
     }
     
-    .about-subtitle {
+    .half-subtitle {
         text-align: center;
     }
     
-    .about-pic {
+    .half-pic {
         padding-top: 5vw;
         padding-bottom: 5vw;
+        padding-left: 5vw;
+    }
+    
+    .about-pic {
+        padding-left: 0;
+    }
+    
+    .eco-grid {
+        padding: 0;
+    }
+    
+    .eco-shot {
+        padding: 0;
+    }
+    
+    .eco-shot-one {
+        padding-right: 4px;
+    }
+    
+    .eco-shot-two {
+        padding-left: 4px;
     }
     
 }
