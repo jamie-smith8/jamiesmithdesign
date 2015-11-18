@@ -45,9 +45,9 @@ img {
 }
 
 .hamb {
-    width: 2rem;
+    width: 1.8rem;
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 25px;
 }
 
@@ -191,19 +191,8 @@ img {
     margin: auto;
 }
 
-#overlay {
-    background-color: rgba(0, 0, 0, .75);
-    -webkit-transition: opacity .25s ease;
-    -moz-transition: opacity .25s ease;
-    transition: opacity .25s ease;
-}
-
-.work-boxes:hover #overlay{
-    opacity: 1;
-}
-
 .work-boxes {
-    opacity: 1;
+    opacity: .8;
     padding: 5px;
 }
 
@@ -354,6 +343,14 @@ img {
     
     .eco-shot-two {
         padding-left: 4px;
+    }
+    
+    .work-boxes {
+        opacity: .6;
+    }
+    
+    .work-boxes:hover {
+        opacity: 1;
     }
     
 }
