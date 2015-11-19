@@ -8,16 +8,28 @@
     <link href="css/type.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jamie Smith Graphic Designer from Ottawa Canada specializing in all over design and photography">
 </head>
     
-    <body> 
+    <body>
+        
+        
         
         <ul class="skip-links">
-            <li><a href="#work">Skip to work</a></li>
-            <li><a href="#contact">Skip to contact</a></li>
+            
+            <li>
+                <a href="#work">Skip to work</a>
+            </li>
+            
+            <li>
+                <a href="#contact">Skip to contact</a>
+            </li>
+            
         </ul>
         
-    <div class="top-bar" id="top">
+<!--  HEADER   -->   
+        
+    <div class="top-bar" id="top" role="navigation-bar">
         
         <div class="hamb">
             <a href="#nav">
@@ -25,30 +37,38 @@
             </a>
         </div>
             
-        <div class="lightbox" id="nav">
-                <a href="#top">
-                    <img class="nav-x" src="images/nav-x.svg" alt="close menu button">                     </a>  
+    <div class="lightbox" id="nav">
+        <a href="#top">
+            <img class="nav-x" src="images/nav-x.svg" alt="close menu button">             </a>  
             
-                <ul>
-                    <a href="about.html"><li>More about me</li></a>
-                    <a href="#work"><li>my work</li></a>
-                    <a href="#contact"><li>contact me</li></a>
-                </ul>
-        </div>
+        <ul>
+          <li><a href="about.html">More about me</a></li>
+          <li><a href="#work">my work</a></li>
+          <li><a href="#contact">contact me</a></li>
+        </ul>
+    </div>
     
         <h1 class="name">Jamie Smith</h1>
         
     </div>
         
+<!--  END HEADER  --> 
         
         
         
-    <div class="banner-photo">
+<!--  BANNER   -->
+        
+    <div class="banner-photo" role="banner">
         <img src="images/banner-jamie-0541.jpg" alt="jamie smith">
     </div>    
         
+<!-- END BANNER   -->  
         
-    <div class="intro">
+        
+        
+<!--  INTRO   --> 
+        
+    <div class="intro" role="intro">
         <h2 class="sub-title">Dedicated to Design</h2>
         
         <hr class="short">
@@ -59,66 +79,202 @@ Currently based out of Ottawa ON.
         
     </div>
         
-    <div class="grid skills">
-        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>Photoshop</p></div>
-        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>InDesign</p></div> 
+<!-- END INTRO -->
+        
+        
+        
+        
+<!--  SKILLS SECTION   -->        
+        
+    <div class="grid skills" role="my-skills">
+        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>Photography</p></div>
+        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>Illustration</p></div> 
             
-        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>Illustrator</p></div> 
+        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>Motion / Video</p></div> 
             
-        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>AfterEffects</p></div> 
+        <div class="skill-boxes unit unit-xs-1-2 unit-m-1-4"><p>Design</p></div> 
     </div>
     
-    
+<!--  END SKILL SECTION   -->
+        
+        
+        
     <hr class="long">
+        
+        
+        
+<!--  PORTFOLIO GRID   -->        
     
-    <div class="grid work" id="work">
-        <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-            <a href="portfolio-piece-one.html">
-                <img src="images/hold-omara.png" class="pics" alt="portfolio piece"> </a>
+    <div class="grid work" id="work" role="portfolio-pieces">
+        
+        <div class="box-typeface work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+            <div class="hide">
+                <a href="p-typeface.html">
+                    <img src="images/hold-omara.png" class="pics" alt="typeface posters">    
+                    <div class="project-titles">
+                        <p class="title">Typeface</p>
+                    </div>
+                </a>
+                
+                
+            </div>
         </div>
-            <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-                <a href="portfolio-piece-two.html">
-                    <img src="images/hold-iso.png" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-isometric work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+            <div class="hide">
+                <a href="p-isometric.html">
+                    <img src="images/hold-iso.png" class="pics" alt="isometric illusration">
+                    <div class="project-titles">
+                        <p class="title">Illustration</p>
+                    </div>
+                </a> 
+            </div>
         </div>
-            <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-                <a href="portfolio-piece-three.html">
-                    <img src="images/hold-magazine.png" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-magazine work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+            <div class="hide">   
+                <a href="p-magazine.html">
+                    <img src="images/hold-magazine.jpg" class="pics" alt="National Geographic Magazine Cover">
+                    <div class="project-titles">
+                        <p class="title">Magazine Cover</p>
+                    </div>
+                </a>
+            </div>    
+                    
         </div>
-        <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-            <a href="portfolio-piece-four.html">
-            <img src="images/hold-maya.png" class="pics" alt="portfolio piece">
-            </a>
+        
+        <div class="box-maya work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+                
+            <div class="hide">
+                <a href="p-maya.html">
+                    <img src="images/hold-maya.png" class="pics" alt="portrait photo of Maya">
+                    <div class="project-titles">
+                        <p class="title">Portrait</p>
+                    </div>
+                </a>
+            </div>    
+                
         </div>
-        <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-            <a href="portfolio-piece-five.html">
-                <img src="images/hold-nebula.png" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-honeybee work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+            <div class="hide">    
+                <a href="p-honeybee.html">
+                    <img src="images/hold-honeybee.png" class="pics" alt="kinetic type">
+                    <div class="project-titles">
+                        <p class="title">Kinetic Type</p>
+                    </div>
+                </a>
+            </div>    
         </div>
-        <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-            <a href="portfolio-piece-six.html">
-                <img src="images/hold-kahlua.png" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-kahlua work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+                
+            <div class="hide">
+                <a href="p-kahlua.html">
+                    <img src="images/hold-kahlua.jpg" class="pics" alt="animal photography">
+                    <div class="project-titles">
+                        <p class="title">Photography</p>
+                    </div>
+                </a>
+            </div>    
+                
         </div>
-        <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-            <a href="portfolio-piece-seven.html">
-                <img src="images/hold-solo.png" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-solo work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+                
+            <div class="hide">
+                <a href="p-solo.html">
+                    <img src="images/hold-solo.jpg" class="pics" alt="theme event poster"> 
+                    <div class="project-titles">
+                        <p class="title">Theme Poster</p>
+                    </div>
+                </a>
+            </div>    
+                
         </div>
-        <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-            <a href="portfolio-piece-eight.html">
-                <img src="images/hold-eco-two.png" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-eco work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+               
+            <div class="hide">    
+                <a href="p-eco.html">
+                    <img src="images/hold-eco-two.png" class="pics" alt="eco friendly package design">      
+                    <div class="project-titles">
+                        <p class="title">Package Design</p>
+                    </div>
+                </a>   
+            </div>
+                
         </div>
-        <div class="work-boxes unit unit-xs-1-2 unit-m-1-3">
-            <a href="portfolio-piece-nine.html">
-                <img src="http://placehold.it/350x350" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-herman work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+                
+            <div class="hide">
+                <a href="p-herman.html">
+                    
+                    <img src="images/hold-herman.jpg" class="pics" alt="stop motion animation">
+                    <div class="project-titles">
+                        <p class="title">Stop Motion</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="work-boxes unit unit-xs-1-2 unit-m-hidden">
-            <a href="about.html">
-                <img src="http://placehold.it/350x350" class="pics" alt="portfolio piece"></a>
+        
+        <div class="box-mandala work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+               
+            <div class="hide">
+                <a href="p-mandala.html">
+                    <img src="images/hold-mandala.png" class="pics" alt="single shape mandala">
+                    <div class="project-titles">
+                        <p class="title">Mandala</p>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+        
+        <div class="box-everest work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+               
+            <div class="hide">
+                <a href="p-everest.html">
+                    <img src="images/hold-everest.png" class="pics" alt="event poster">
+                    <div class="project-titles">
+                        <p class="title">Event Poster</p>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+        
+        <div class="box-skin work-boxes unit unit-xs-1-2 unit-m-1-3 unit-l-1-4">
+                
+            <div class="hide">
+                <a href="p-skin.html">
+                    <img src="images/hold-skin.png" class="pics" alt="snake skin iphone skin">  
+                    
+                    <div class="project-titles">
+                        <p class="title">iPhone Skin</p>
+                    </div>
+                </a>
+            </div>    
+                
         </div>
 
     </div>
         
+<!--  END PORTFOLIO GRID   --> 
+        
+        
+        
+        
     <hr class="long">
         
-    <div class="intro" id="contact">
+        
+        
+        
+<!--  CONTACT SECTION   --> 
+        
+        
+    <div class="intro" id="contact" role="contact">
         <h2 class="sub-title chat">How about a chat?</h2>
         
         <hr class="short">
@@ -160,14 +316,24 @@ Currently based out of Ottawa ON.
             </li>
         </ul>
     </div>
+        
+        
+<!--  END CONTACT SECTION   -->
+        
+        
+        
+        
+<!--  FOOTER   -->        
 
-    <div class="top-bar">
+    <div class="top-bar" role="footer">
         
         <a href="#top"><img class="arrow" src="images/up-arrow.svg" alt="up arrow"> </a>
         
         <h1 class="name">Jamie Smith</h1>
         
     </div>
+        
+<!--  FOOTER   -->         
 
     
     

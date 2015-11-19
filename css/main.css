@@ -14,9 +14,7 @@ html {
 
 body {
     margin: auto;   
-    font-family: 'Helvetica' sans-serif;
-    -moz-font-family: 'Helvetica' sans-serif;
-    
+    font-family: 'Helvetica', sans-serif;
 }
 
 .skip-links {
