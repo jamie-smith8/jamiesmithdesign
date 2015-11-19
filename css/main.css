@@ -90,7 +90,6 @@ img {
 .lightbox li{
     list-style: none; 
     padding-left: 0;
-    color: darkslategray;
 }
 
 .lightbox ul {
@@ -99,6 +98,7 @@ img {
 
 .lightbox a {
     text-decoration: none;
+    color: darkslategray;
 }
 
 .name {
