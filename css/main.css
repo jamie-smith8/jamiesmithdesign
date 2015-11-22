@@ -139,6 +139,11 @@ img {
     color: darkslategrey;
 }
 
+.intro-link:visited {
+       color: black;
+    text-decoration: none;
+}
+
 .short {
     width: 4rem;
     display: block;
