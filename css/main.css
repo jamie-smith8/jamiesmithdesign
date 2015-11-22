@@ -214,6 +214,7 @@ img {
     position: relative;
 }
 
+/*
 .project-titles {
     position: absolute;
     
@@ -249,24 +250,10 @@ img {
     transition: opacity 2.5s ease;
 }
 
-.title {
-       display: block;
-        color: white;
-        position: absolute;
-        font-size: 90%;
-        bottom: -15px;
-        width: 100%;
-        text-align: center;
-        letter-spacing: 3px;
-        opacity: .2;
-} 
+*/
 
-.title:hover {
-    opacity: 1;
-    -webkit-transition: opacity .1s ease;
-    -moz-transition: opacity .1s ease;
-    transition: opacity .1s ease;
-}
+
+
 
 .box-isometric {
     position: relative;
