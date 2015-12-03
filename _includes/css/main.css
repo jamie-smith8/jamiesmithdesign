@@ -281,7 +281,7 @@ img {
 
 .pics {
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .intro-p {
