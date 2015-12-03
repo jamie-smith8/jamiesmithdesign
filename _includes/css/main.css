@@ -208,9 +208,10 @@ img {
 
 
 .work {
-    max-width: 85vw;
     display: block;
-    margin: auto;
+    position: relative;
+    left: calc(50% - 42.5vw);
+    max-width: 85vw;
 }
 
 .work-boxes {
@@ -281,7 +282,6 @@ img {
 
 .pics {
     display: block;
-    margin: 0 auto;
 }
 
 .intro-p {
