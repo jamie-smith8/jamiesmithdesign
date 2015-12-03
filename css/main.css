@@ -405,11 +405,7 @@ img {
         text-align: center;
     }
     
-    .half-pic {
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        padding-left: 5vw;
-    }
+    
     
     .about-pic {
         padding-left: 0;
@@ -456,7 +452,11 @@ img {
     }
     
     
-    
+    .half-pic {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        padding-left: 5vw;
+    }
     
     
    
