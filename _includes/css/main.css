@@ -233,6 +233,10 @@ img {
     display: none;
 }
 
+.banner-photo {
+    background-color: white;
+    min-height: 10rem;
+}
 
 
 .box-isometric {
@@ -406,7 +410,6 @@ img {
     .half-pic {
         padding-top: 5vw;
         padding-bottom: 5vw;
-        padding-left: 5vw;
     }
     
     .about-pic {
@@ -455,7 +458,9 @@ img {
     
     
     
-    
+    .half-pic {
+        padding-left: 5vw;   
+    }
     
    
     .project-titles {
