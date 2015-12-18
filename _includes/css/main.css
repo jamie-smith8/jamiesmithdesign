@@ -110,7 +110,7 @@ img {
     font-size: 13px;
 }
 
-.introduction {
+.intro {
     text-align: center;
     padding-top: 20px;
     max-width: 85vw;
@@ -367,7 +367,7 @@ img {
 }
 
 
-.broken {
+.oops {
     text-align: center;
     color: teal;
     min-height: 20px;
