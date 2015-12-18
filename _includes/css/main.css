@@ -370,12 +370,11 @@ img {
 .oops {
     text-align: center;
     color: teal;
-    min-height: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 60vh;
 }
 
-.broken {
-    height: 75vh;
-}
 
 
 @media only screen and (min-width: 25em) {
