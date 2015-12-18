@@ -367,6 +367,11 @@ img {
 }
 
 
+.broken {
+    text-align: center;
+    color: teal;
+    min-height: 20px;
+}
 
 
 
