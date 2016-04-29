@@ -140,6 +140,10 @@ img {
     margin: auto;
 }
 
+.work {
+  padding-top: 30px;
+}
+
 .sub-title {
     font-family: 'Helvetica' sans-serif;
     font-weight: 100;
