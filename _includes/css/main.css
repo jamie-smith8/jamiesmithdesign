@@ -389,6 +389,11 @@ img {
     line-height: 60vh;
 }
 
+    .half-pic {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+
 
 
 @media only screen and (min-width: 25em) {
@@ -428,8 +433,8 @@ img {
     }
     
     .half-pic {
-        padding-top: 5vw;
-        padding-bottom: 5vw;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     
     .about-pic {
