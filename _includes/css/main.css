@@ -46,7 +46,6 @@ a:hover {
 .top-bar {
     width: auto;
     position: relative;
-  color: white;
 }
 
 img {
@@ -123,6 +122,7 @@ img {
 
 .name {
     position: absolute;
+    color: white;
     right: 20px;
     top: 10px;
     font-family: 'Helvetica' sans-serif;
