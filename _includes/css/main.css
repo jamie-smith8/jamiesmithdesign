@@ -43,9 +43,9 @@ a:hover {
     text-decoration: none;
 }
 
+
 .top-bar {
     width: auto;
-    height: 0;
     position: relative;
 }
 
@@ -62,7 +62,7 @@ img {
     font-weight: 800;
     text-transform: uppercase;
     font-size: 13px;
-    background-color: white;
+    color: white;
 }
 
 
