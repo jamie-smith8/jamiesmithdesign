@@ -243,10 +243,6 @@ img {
     display: none;
 }
 
-.banner-photo {
-    max-height: 100vh;
-}
-
 
 .box-isometric {
     position: relative;
@@ -326,7 +322,7 @@ img {
 }
 
 .back-arrow {
-    top: 20px;
+    top: 60px;
     width: 2.2rem;
     padding-left: 25px;
     padding-top: 10px;
@@ -416,10 +412,6 @@ img {
     .intro-p {
         font-size: 120%;
     }
-  
-    .intro {
-      padding-top: 40px;
-    }
     
     .half-intro {
         font-size: 14px;
@@ -434,6 +426,10 @@ img {
     .half-pic {
         padding-top: 0;
         padding-bottom: 0;
+    }
+  
+    .back-arrow {
+    top: 20px;
     }
     
     .about-pic {
