@@ -249,8 +249,8 @@ img {
 }
 
 .banner-photo {
-    background-color: white;
-    min-height: 10rem;
+    background-image: url(images/maya-bg.jpg);
+    min-height: 100vh;
 }
 
 
