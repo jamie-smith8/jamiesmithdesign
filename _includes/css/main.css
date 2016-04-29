@@ -45,6 +45,7 @@ a:hover {
 
 .top-bar {
     width: auto;
+    height: 0;
     position: relative;
 }
 
