@@ -231,15 +231,8 @@ img {
 
 .work {
     display: block;
-    position: relative;
-    left: calc(50% - 42.5vw);
-    max-width: 85vw;
+    width: 100%;
 }
-
-.work-boxes {
-    padding: 5px;
-}
-
 
 .box-typeface {
     position: relative;
