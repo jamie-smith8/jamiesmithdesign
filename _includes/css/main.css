@@ -249,7 +249,7 @@ img {
 }
 
 .banner-photo {
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
 
