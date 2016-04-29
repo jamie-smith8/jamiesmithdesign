@@ -15,6 +15,7 @@ html {
 body {
     margin: auto;   
     font-family: 'Helvetica', sans-serif;
+  background-color: black;
 }
 
 .skip-links {
@@ -258,7 +259,7 @@ img {
 }
 
 .banner-photo {
-    height: 0px;
+    max-height: 100vh;
 }
 
 
