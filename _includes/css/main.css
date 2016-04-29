@@ -249,7 +249,7 @@ img {
 }
 
 .banner-photo {
-    background-image: url(../../images/maya-bg);
+    background-image: url(../images/maya-bg);
     background-size: cover;
     min-height: 100vh;
 }
