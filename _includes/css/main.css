@@ -15,7 +15,6 @@ html {
 body {
     margin: auto;   
     font-family: 'Helvetica', sans-serif;
-  background-color: black;
 }
 
 .skip-links {
@@ -65,8 +64,6 @@ img {
     font-size: 13px;
     background-color: white;
 }
-
-
 
 
 .hamb {
