@@ -416,6 +416,10 @@ img {
     .intro-p {
         font-size: 120%;
     }
+  
+    .intro {
+      padding-top: 40px;
+    }
     
     .half-intro {
         font-size: 14px;
