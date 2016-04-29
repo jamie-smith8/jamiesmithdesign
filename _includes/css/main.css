@@ -24,7 +24,7 @@ body {
 }
 
 a {
-  color: darkslategrey;
+  color: white;
 }
 
 a:hover {
@@ -44,9 +44,9 @@ a:hover {
 }
 
 .top-bar {
-    height: 2.5rem;
     width: auto;
     position: relative;
+  color: white;
 }
 
 img {
